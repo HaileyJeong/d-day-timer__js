@@ -3,7 +3,6 @@ const clockTitle = document.querySelector(".js-clock");
 function xMasClock() {
   const targetdate = new Date("2022-12-25");
   const today = new Date();
-
   const diff = targetdate - today;
   
   const day = Math.floor(diff / (1000*60*60*24));
